@@ -15,8 +15,8 @@ driver.set_window_size(950,800)
 driver.get(url)
 time.sleep(1.5)
 
-credential1 = 'jakeant2'
-credential2 = '1003516'
+credential1 = 'USERNAME'
+credential2 = 'PASSWORD'
 credential3 = 'ENTER SEARCH HERE'
 
 login_button = driver.find_element_by_css_selector('a.css-1dbjc4n:nth-child(5)')
